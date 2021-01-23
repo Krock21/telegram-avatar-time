@@ -19,7 +19,7 @@ def valid_tz(s):
 parser = argparse.ArgumentParser()
 parser.add_argument("--api_id", required=False, help="user api ID", type=str, default=api_id)
 parser.add_argument("--api_hash", required=False, help="user api Hash", type=str, default=api_hash)
-parser.add_argument("--tz", required=False,  help="user api Hash", type=valid_tz, default=valid_tz('Asia/Tashkent'))
+parser.add_argument("--tz", required=False,  help="user api Hash", type=valid_tz, default=valid_tz('Europe/Moscow'))
 
 args = parser.parse_args()
 
